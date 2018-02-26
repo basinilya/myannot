@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project myannot-test with Jar-in-Jar Loader">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <property name="deploy.prefix" value="../myannot-repo/repo/foo/myannot-annotations" />
+    <target name="create_run_jar">
+        <jar destfile="${deploy.prefix}/0.1-SNAPSHOT/myannot-annotations-0.1-SNAPSHOT.jar">
+            <fileset dir="bin"/>
+        </jar>
+    </target>
+	<target name="clean">
+		<delete failonerror="false" dir="${deploy.prefix}"/>
+	</target>
+</project>

@@ -1,0 +1,5 @@
+<factorypath>
+    <factorypathentry kind="PLUGIN" id="org.eclipse.jst.ws.annotations.core" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/myannot-repo/repo/foo/myannot-annotations/0.1-SNAPSHOT/myannot-annotations-0.1-SNAPSHOT.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/myannot-repo/repo/foo/myannot-processors/0.1-SNAPSHOT/myannot-processors-0.1-SNAPSHOT.jar" enabled="true" runInBatchMode="false"/>
+</factorypath>
